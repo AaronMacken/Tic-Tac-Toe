@@ -13,6 +13,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     // 0 = yellow, 1 = red
     int activePlayer = 0;
+    
+    // Bool to check to see if game is active
     boolean gameIsActive = true;
 
     // 2 means unplayed
